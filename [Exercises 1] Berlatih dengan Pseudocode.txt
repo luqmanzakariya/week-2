@@ -1,0 +1,71 @@
+1. Newton Second Law
+A. Pseudocode
+------------------
+SET m equals to 600
+SET a equals to 2
+SET f equals to 0
+
+f equals to m multiply by a
+Display f
+
+=================================================
+2. Tahun Kabisat
+A. Algoritma
+------------------
+1. If year divided by 4 equals to 0 AND year divided by 100 not equals to 0 or year divided by 4 not equals to 0 AND year divided by 100 equals to 0 AND divided by 400 equals to 0
+2. If first condition is true, show "Tahun Kabisat". If first condition is false, show "not Tahun Kabisat"
+
+B. Pseudocode
+------------------
+SET tahun
+INPUT tahun
+
+IF tahun mod by 4 equals to 0 AND tahun mod by 100 not equals to 0
+	DISPLAY "Tahun Kabisat"
+ELSE IF tahun mod by 4 not equals to 0 AND tahun mod by 100 equals to 0 AND divided by 400 equals to 0
+	DISPLAY "Tahun Kabisat"
+ELSE
+	DISPLAY "Bukan Tahun Kabisat"
+END IF
+
+=================================================
+3. Laundry Day
+A. Algoritma
+------------------
+1. Put 20 clothes one by one into the washing machine
+2. If all clothes already put into the washing machine, turn on the washing machine
+
+
+B. Pseudocode
+------------------
+SET pakaian equals to 20
+SET isi equals to 0
+SET mesin equals to "mesin mati"
+
+WHILE pakaian more than 1
+	pakaian minus 1
+	isi subtract 1
+	IF pakaian equals to 0
+		SET mesin equals to "mesin nyala"
+	END IF
+	DISPLAY isi
+DISPLAY mesin
+
+=================================================
+4. Periksa Kuku
+A. Algoritma
+------------------
+1. Inspect all 40 students nails one by one
+2. If student nails is long, the teacher punish the student, if student nails is short then the teacher praise the student
+
+B. Pseudocode
+------------------
+SET students equals to 40
+
+WHILE students more than 0
+	IF students nails equals to long
+		DISPLAY "teachers punish the student"
+	ELSE students nails not equals to long
+		DISPLAY "teachers praise the student"
+	END IF
+        students min 1
